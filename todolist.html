@@ -5,16 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-    <link rel="stylesheet" href="/css/user.css" />
+    <link rel="stylesheet" href="/css/todos.css" />
   </head>
   <body>
     <div class="container-header">
-      <span class="header-text">User List</span>
-      <button class="button-right todo-list"><a href="/todolist.html">Todo List</a></button>
+      <span class="header-text">Todo List</span>
+      <button class="button-right user-list"><a href="/index.html">User List</a></button>
     </div>
     <div class="main-container">
       <br />
-      <button class="button-left"><a href="#">New User</a></button>
+      <button class="button-left"><a href="#">New Todo</a></button>
       <input
         type="search"
         placeholder="Search..."
@@ -23,29 +23,32 @@
       <table class="table-center">
         <tr class="thead-color">
           <th>#</th>
-          <th>First Name</th>
-          <th>Last Name</th>
-          <th>Occupation</th>
+          <th>Name</th>
+          <th>Description</th>
+          <th>Status</th>
+          <th>Owner</th>
           <th>Action</th>
         </tr>
         <tr>
           <td>1</td>
-          <td>Hello</td>
-          <td>World</td>
-          <td>Program</td>
+          <td>Task 1</td>
+          <td>Write a sample program</td>
+          <td>ON_GOING</td>
+          <td>Hello World</td>
           <td>
-              <button class="btn-update"><span>Edit</span></button>
-              <button class="btn-delete"><span>Delete</span></button>
+              <button class="btn-update"><a href="/todoupdate.html">Edit</a></button>
+              <button class="btn-delete"><a>Delete</a></button>
           </td>
         </tr>
         <tr>
           <td>2</td>
-          <td>Java</td>
-          <td>Full Stack</td>
-          <td>Program</td>
+          <td>Daily Task</td>
+          <td>Develop fullstack web app</td>
+          <td>ON_GOING</td>
+          <td>Java Full Stack</td>
           <td>
-            <button class="btn-update"><span>Edit</span></button>
-            <button class="btn-delete"><span>Delete</span></button>
+            <button class="btn-update"><a href="/todoupdate.html">Edit</a></button>
+            <button class="btn-delete"><a>Delete</a></button>
           </td>
         </tr>
       </table>

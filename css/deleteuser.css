@@ -1,0 +1,29 @@
+.main-container {
+    background-color: khaki;
+    padding: 15px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  
+  .header-text{
+      color: khaki;
+      font-family: sans-serif;
+      text-align: center;
+  }
+
+.container-header {
+    background-color: red;
+    padding: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.main-text{
+    color: red;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+button{
+    float: right;
+}

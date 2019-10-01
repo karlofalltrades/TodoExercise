@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/css/todoupdate.css" />
   </head>
   <body>
+    <h1>Update Todo</h1>
     <div>
       <form action="#">
         <label for="fname">Name</label>
@@ -27,12 +28,7 @@
         />
 
         <label for="lname">Status</label>
-        <input
-          type="text"
-          id="lname"
-          name="lastname"
-          placeholder="Description.."
-        />
+        <input type="text" id="lname" name="lastname" placeholder="Status.." />
 
         <label for="country">Owner</label>
         <select id="country" name="country">
@@ -40,7 +36,7 @@
           <option value="canada">Canada</option>
           <option value="usa">USA</option>
         </select>
-
+        <button class="btn-right"><a href="/todolist.html">Cancel</a></button>
         <input type="submit" value="Submit" />
       </form>
     </div>
